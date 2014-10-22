@@ -1,0 +1,19 @@
+{
+  "name": "java-ssl",
+  "version": "1.0.0",
+  "description": "Read SSL certificate from Java Keystore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "java": "*"
+    },
+  "keywords": [
+    "Java",
+    "SSL",
+    "Keystore"
+  ],
+  "author": "Jayesh Mori",
+  "license": "MIT"
+}
