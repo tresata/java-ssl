@@ -29,7 +29,7 @@ var Keystore = function (keystore, storepass) {
         try {
             // JAR file call to retrieve the certificate from keystore
             _certificate = java.callMethodSync(_class, "getCert",
-                path.resolve(__dirname, keystore),
+                keystore,
                 storepass,
                 alias); 
 
@@ -56,7 +56,7 @@ var Keystore = function (keystore, storepass) {
         try {
             // JAR file call to retrieve the certificate from keystore
             _privateKey = java.callMethodSync(_class, "getPrivateKey",
-                path.resolve(__dirname, keystore),
+                keystore,
                 storepass,
                 alias);
 
